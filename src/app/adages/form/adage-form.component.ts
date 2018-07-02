@@ -50,8 +50,6 @@ export class AdageFormComponent implements OnInit {
       this.adage.author = user.displayName;
       this.adage.uid = user.uid;
       this.adage.photoURL = user.photoURL;
-      this.adage.title = '';
-      this.adage.description = '';
     });
   }
 
