@@ -19,6 +19,9 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
+              "src/sw.js",
+              "src/manifest.json",
+              "src/firebase-messaging-sw.js",
               "src/favicon.ico",
               "src/assets"
             ],

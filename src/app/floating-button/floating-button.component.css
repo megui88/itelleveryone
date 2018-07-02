@@ -1,0 +1,26 @@
+.floating-button{
+  position: fixed;
+  right: 23px;
+  bottom: 23px;
+  margin-bottom: 35px;
+  z-index: 10000;
+}
+.floating-second-button{
+  margin-bottom: 105px;
+}
+.floating-third-button{
+  margin-bottom: 175px;
+}
+.floating-fourth-button{
+  margin-bottom: 35px;
+  right: 93px;
+}
+.floating-fifth-button{
+  margin-bottom: 35px;
+  right: 163px;
+}
+
+.floating-sixth-button{
+  margin-bottom: 95px;
+  right: 85px;
+}

@@ -1,0 +1,14 @@
+<mat-card>
+  <mat-card-header>
+    <img src="{{(adage|async)?.photoURL}}" mat-card-avatar/>
+    <mat-card-title>{{(adage|async)?.author}}</mat-card-title>
+    <mat-card-subtitle>{{((adage|async)?.createAt) | timestampToDate | date}}</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-title>
+    {{(adage|async)?.title }}
+    <button mat-icon-button>
+      <mat-icon></mat-icon>
+    </button>
+  </mat-card-title>
+  <mat-card-content><p>{{(adage|async)?.description}}</p></mat-card-content>
+</mat-card>

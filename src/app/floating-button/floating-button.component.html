@@ -1,0 +1,4 @@
+<button mat-fab ngClass={{getClass()}} class="floating-button" color="{{color}}" title={{title}}>
+  <mat-icon *ngIf="!isFa">{{icon}}</mat-icon>
+  <i *ngIf="isFa" class="fa fa-{{icon}} fa-2x" aria-hidden="false"> </i>
+</button>

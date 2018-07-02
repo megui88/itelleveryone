@@ -1,0 +1,22 @@
+mat-sidenav-container {
+  height: 100vh;
+}
+
+mat-sidenav {
+  width: 200px;
+}
+
+mat-sidenav a {
+  display: block;
+  text-align: left;
+  padding: 0.5em 1em;
+  color: #222 !important;
+  font-weight: bold;
+  margin: 0.5em 0;
+  text-transform: uppercase;
+}
+
+mat-icon {
+  cursor: pointer;
+  margin: 10px;
+}
