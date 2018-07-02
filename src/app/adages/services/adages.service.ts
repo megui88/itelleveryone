@@ -10,11 +10,10 @@ export const collection = 'adages';
 @Injectable()
 export class AdagesService {
 
-  private adagesCollection: AngularFirestoreCollection<Adage>;
   readonly adages: Observable<Adage[]>;
-  private adageSubject = new BehaviorSubject({} as Adage);
-
   adage: Observable<Adage>;
+  private adagesCollection: AngularFirestoreCollection<Adage>;
+  private adageSubject = new BehaviorSubject({} as Adage);
 
   constructor(
     private db: AngularFirestore

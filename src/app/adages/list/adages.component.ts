@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {AdagesService} from '../services/adages.service';
 import {Adage} from '../Adage';
 import {Observable} from 'rxjs';

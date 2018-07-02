@@ -1,6 +1,6 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { FloatingButtonComponent } from './floating-button.component';
+import {FloatingButtonComponent} from './floating-button.component';
 
 describe('FloatingButtonComponent', () => {
   let component: FloatingButtonComponent;
@@ -8,9 +8,9 @@ describe('FloatingButtonComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ FloatingButtonComponent ]
+      declarations: [FloatingButtonComponent]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {

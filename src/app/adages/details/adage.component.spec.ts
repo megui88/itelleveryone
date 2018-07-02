@@ -1,6 +1,6 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { AdageComponent } from './adage.component';
+import {AdageComponent} from './adage.component';
 
 describe('AdageComponent', () => {
   let component: AdageComponent;
@@ -8,9 +8,9 @@ describe('AdageComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AdageComponent ]
+      declarations: [AdageComponent]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {

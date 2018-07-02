@@ -1,6 +1,6 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { NavButtonsComponent } from './nav-buttons.component';
+import {NavButtonsComponent} from './nav-buttons.component';
 
 describe('NavButtonsComponent', () => {
   let component: NavButtonsComponent;
@@ -8,9 +8,9 @@ describe('NavButtonsComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ NavButtonsComponent ]
+      declarations: [NavButtonsComponent]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {

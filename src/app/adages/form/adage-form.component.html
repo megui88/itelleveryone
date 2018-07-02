@@ -1,27 +1,27 @@
 <div class="adage-form">
-    <p>
-        <mat-form-field>
-            <input matInput name="author" placeholder="Author" [(ngModel)]="adage.author" [disabled]="true">
-        </mat-form-field>
-    </p>
-    <p>
-        <mat-form-field>
-            <input matInput name="title" placeholder="Title" [(ngModel)]="adage.title" [disabled]="adding">
-        </mat-form-field>
-    </p>
-    <p>
-        <mat-form-field disabled="adding">
+  <p>
+    <mat-form-field>
+      <input matInput name="author" placeholder="Author" [(ngModel)]="adage.author" [disabled]="true">
+    </mat-form-field>
+  </p>
+  <p>
+    <mat-form-field>
+      <input matInput name="title" placeholder="Title" [(ngModel)]="adage.title" [disabled]="adding">
+    </mat-form-field>
+  </p>
+  <p>
+    <mat-form-field disabled="adding">
             <textarea rows="5"
                       name="description"
                       matInput
                       placeholder="Description"
                       [(ngModel)]="adage.description"
                       [disabled]="adding"></textarea>
-        </mat-form-field>
-    </p>
-    <p>
-        <button mat-button mat-raised-button color="primary" (click)="saveMe()" [disabled]="adding">
-            Submit
-        </button>
-    </p>
+    </mat-form-field>
+  </p>
+  <p>
+    <button mat-button mat-raised-button color="primary" (click)="saveMe()" [disabled]="adding">
+      Submit
+    </button>
+  </p>
 </div>

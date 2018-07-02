@@ -11,5 +11,6 @@
     </button>
   </mat-card-title>
   <mat-card-content> {{adage.description | truncate : 40 }}</mat-card-content>
-  <a *ngIf="(user|async)?.uid" routerLink="/{{adage.id}}" mat-raised-button class="more-button" title="More about this adage">More</a>
+  <a *ngIf="(user|async)?.uid" routerLink="/{{adage.id}}" mat-raised-button class="more-button"
+     title="More about this adage">More</a>
 </mat-card>

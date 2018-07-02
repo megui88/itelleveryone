@@ -45,23 +45,23 @@
   ></app-floating-button>
 
   <div *ngIf="(adage|async)?.uid !== (user|async)?.uid">
-  <app-floating-button
-    title="Add new adage!"
-    icon="add"
-    position="2"
-    color="accent"
-    *ngIf="more"
-    (click)="newAdage()"
-  ></app-floating-button>
-  <app-floating-button
-    title="Log out! Sign out! Bye Bye!!"
-    icon="sign-out"
-    [isFa]=true
-    position="5"
-    color="warn"
-    *ngIf="more"
-    (click)="singOut()"
-  ></app-floating-button>
+    <app-floating-button
+      title="Add new adage!"
+      icon="add"
+      position="2"
+      color="accent"
+      *ngIf="more"
+      (click)="newAdage()"
+    ></app-floating-button>
+    <app-floating-button
+      title="Log out! Sign out! Bye Bye!!"
+      icon="sign-out"
+      [isFa]=true
+      position="5"
+      color="warn"
+      *ngIf="more"
+      (click)="singOut()"
+    ></app-floating-button>
   </div>
 
   <div *ngIf="(adage|async)?.uid === (user|async)?.uid">

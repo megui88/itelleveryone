@@ -5,18 +5,18 @@ import {MatButtonModule, MatIconModule} from '@angular/material';
 
 
 @NgModule({
-    imports: [
-        CommonModule,
-        MatButtonModule,
-        MatIconModule,
-    ],
-    declarations: [
-        FloatingButtonComponent
-    ],
-    exports: [
-        FloatingButtonComponent,
-    ],
-    providers: [],
+  imports: [
+    CommonModule,
+    MatButtonModule,
+    MatIconModule,
+  ],
+  declarations: [
+    FloatingButtonComponent
+  ],
+  exports: [
+    FloatingButtonComponent,
+  ],
+  providers: [],
 })
 export class FloatingButtonModule {
 }

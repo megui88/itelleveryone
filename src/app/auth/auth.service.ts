@@ -44,6 +44,12 @@ export class AuthService {
     return this.oAuthLogin(provider);
   }
 
+  signOut() {
+    this.afAuth.auth.signOut().then(() => {
+      this.router.navigate(['/']);
+    });
+  }
+
   private oAuthLogin(provider) {
     return this.afAuth.auth.signInWithPopup(provider)
       .then((credential) => {
@@ -64,12 +70,6 @@ export class AuthService {
 
     return userRef.set(data, {merge: true});
 
-  }
-
-  signOut() {
-    this.afAuth.auth.signOut().then(() => {
-      this.router.navigate(['/']);
-    });
   }
 
 }

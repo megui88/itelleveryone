@@ -6,7 +6,6 @@ import {Adage} from './adages/Adage';
 import {AdagesService} from './adages/services/adages.service';
 import {MatSnackBar} from '@angular/material';
 import {Router} from '@angular/router';
-import {filter, map} from 'rxjs/operators';
 
 @Component({
   selector: 'app-root',

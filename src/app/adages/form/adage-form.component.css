@@ -1,11 +1,12 @@
-.adage-form{
-    width: 90%;
-    margin: 0 auto;
-}
-.adage-form p{
-    width: 100%;
+.adage-form {
+  width: 90%;
+  margin: 0 auto;
 }
 
-.adage-form p .mat-form-field{
-    width: 100%;
+.adage-form p {
+  width: 100%;
+}
+
+.adage-form p .mat-form-field {
+  width: 100%;
 }
